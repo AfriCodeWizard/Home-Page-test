@@ -1,24 +1,40 @@
-//.container{
-    display: flex;
+.Top{
     flex-wrap: wrap;
+    background-color: #080c13;
+    display: flex;
+    justify-content: center;
 }
+
  .header{
     display: flex;
     justify-content: space-around;
     padding: 8px;
-    background-color: #1F2937;
+    color: white;
+    background-color: #080c13;
 
  }
- ul{
+
+ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     gap: 16px;
-    align-items: end;
 
 }
 .links{
-    display: flex;
+    display: flex; 
     
+}
+
+h1{
+    color: white;
     
+}
+
+p{
+    color: white;
+}
+
+#img{
+    justify-content: end;
 }
