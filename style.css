@@ -1,8 +1,24 @@
 //.container{
     display: flex;
     flex-wrap: wrap;
-    background-color: #1F2937;
 }
- //.header{
+ .header{
     display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: #1F2937;
+
  }
+ ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    align-items: end;
+
+}
+.links{
+    display: flex;
+    
+    
+}
