@@ -99,4 +99,15 @@ body {
     border-radius: 10px;
 }
 
+.rounded-image {
+    border-radius: 10px; 
+}
   /* Darkblue section ends here */
+
+.content-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
