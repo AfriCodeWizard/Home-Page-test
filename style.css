@@ -106,7 +106,7 @@ body {
 }
   /* Darkblue section ends here */
 
-  .section-title{
+.section-title{
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
@@ -157,8 +157,8 @@ body {
 
 .text-wrapper {
     flex-direction: column;
-    justify-content: flex-end; /* Align text to the bottom */
-    max-width: 180px; /* Match the image width */
+    justify-content: flex-end; 
+    max-width: 180px; 
 }
 
 .item .text {
@@ -267,4 +267,18 @@ body {
 
 .cta-container .cta-button:hover {
     background-color: darkblue;
+}
+
+.footer{
+    background-color: #E5E7EB;
+    padding: 30px;
+    padding-left: 500px;
+
+}
+
+.footer.footer-txt{
+    display: flex;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
