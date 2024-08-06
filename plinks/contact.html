@@ -1,19 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+ 
+ <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIG-5 Contacts</title>
+    <link rel="stylesheet" href="contact.css">
+    
 </head>
 <body>
     <header>
-        <div><a href="/Home-Page-test/index.html">BIG-5 Safari</a></div>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="tours.html">Tours</a></li>
-                </ul>
-        </nav>
+        <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     </header>
+    <div class="design-root">
+        <div class="layout-container">
+            <header class="header">
+                <div class="header-left">
+                    <div class="logo">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="header-title"><a href="/Home-Page-test/index.html">BIG-5 Safari</a></div>
+               
+                </div>
+                <div class="header-right">
+                    <div class="nav-links">
+                        <a href="about.html">About</a>
+                        <a href="tours.html">Tours</a>
+                        <a href="#">Destinations</a>
+                    </div>
+                    <div class="buttons">
+                        <button class="search-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                                <path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+                            </svg>
+                        </button>
+                        <button class="user-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                                <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120Zm97.76,66.41a79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75,88,88,0,1,1,131.52,0Z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="profile-pic"></div>
+                </div>
+            </header>
+
+            <main class="container mx-auto mt-8">
+                <section>
+                    <h1 class="text-4xl font-bold mb-4">Get in touch</h1>
+                    <p class="mb-8">We'll get back to you within 24 hours</p>
+                    <form>
+                        <div>
+                            <label for="first-name">First name</label>
+                            <input type="text" id="first-name" placeholder="Enter first name" />
+                        </div>
+                        <div>
+                            <label for="last-name">Last name</label>
+                            <input type="text" id="last-name" placeholder="Enter last name" />
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter email" />
+                        </div>
+                        <div>
+                            <label for="phone">Phone (Optional)</label>
+                            <input type="tel" id="phone" placeholder="Enter phone number" />
+                        </div>
+                        <div class="col-span-2">
+                            <label for="message">Message</label>
+                            <textarea id="message" placeholder="Type your message here"></textarea>
+                        </div>
+                        <div class="col-span-2 text-right">
+                            <input type="submit" value="Send" />
+                        </div>
+                    </form>
+                </section>
+            </main>
+
+            <footer class="container mx-auto mt-8 py-8 border-t">
+                <div class="text-center mb-4">
+                    <a href="#" class="mr-4"><img src="/Home-Page-test/images/Socials/facebook.png" alt="Facebook" width="70" height="70"></a>
+                    <a href="#" class="mr-4"><img src="/Home-Page-test/images/Socials/instagram.png" alt="Instagram" width="70" height="70"></a>
+                    <a href="#" class="mr-4"><img src="/Home-Page-test/images/Socials/twitter.png" alt="Twitter" width="70" height="70"></a>
+                    <a href="#"><img src="/Home-Page-test/images/Socials/youtube.png" alt="YouTube" width="70" height="70"></a>
+                </div>
+                <section class="faq">
+                    <div>
+                        <h2 class="text-xl font-bold mb-4">FAQ</h2>
+                        <details>
+                            <summary>How can I check the status of my order?</summary>
+                            <p>You can view the status of your order by visiting the Order History page and signing in.</p>
+                        </details>
+                        <details>
+                            <summary>How can I check the status of my order?</summary>
+                            <p>You can view the status of your order by visiting the Order History page and signing in.</p>
+                        </details>
+                        <details>
+                            <summary>How can I check the status of my order?</summary>
+                            <p>You can view the status of your order by visiting the Order History page and signing in.</p>
+                        </details>
+                    </div>
+                </section>
+                <p class="text-center mt-8">&copy; 2022 Safari Tours, Inc.</p>
+                <p class="text-center"><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
