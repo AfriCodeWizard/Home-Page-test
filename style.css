@@ -6,49 +6,75 @@ body {
 }
 
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px;
     padding-left: 150px;
     padding-right: 150px;
-    color: white;
-    background-color: #1F2937;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-items: center;
+    border-bottom: 1px solid #E5E7EB;
+    background-color:  #1F2937;
+}
 
- }
-
- .logo div {
-    font-size: 24px;
-    font-weight: bold;
-    color: #F9FAF8;
-
- }
-
- .links ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.header-left {
     display: flex;
-    gap: 20px;
+    align-items: center;
 }
 
-
-.links ul li {
-    display: inline;
+.logo {
+    width: 40px;
+    height: 40px;
+    color: #E5E7EB;
 }
 
+.header-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #E5E7EB;
+}
 
-.links ul li a {
-    color: #F9FAF8;
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    color: #E5E7EB;
     text-decoration: none;
-    font-size: 18px;
+    font-weight: 500;
 }
 
-.links ul li a:hover {
-    color: rgb(83, 82, 82);
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #666;
 }
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search-button, .user-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #E5E7EB;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3882f6;
+}
+
+
+
 
 .top-section {
     display: flex;
