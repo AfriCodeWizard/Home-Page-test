@@ -1,0 +1,133 @@
+body {
+    font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    border-bottom: 1px solid #f5f3f0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header .logo h2 {
+    color: #181511;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+nav a {
+    color: #181511;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.actions {
+    display: flex;
+    gap: 16px;
+}
+
+.actions button {
+    min-width: 84px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.actions .book {
+    background-color: #f49a25;
+    color: #181511;
+}
+
+.actions .signin {
+    background-color: #f5f3f0;
+    color: #181511;
+}
+
+main {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    color: #181511;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.filters {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.filters button {
+    display: flex;
+    align-items: center;
+    background-color: #f5f3f0;
+    color: #181511;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.filters span {
+    margin-left: 8px;
+}
+
+.tours {
+    display: flex;
+    gap: 24px;
+}
+
+.tour {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    gap: 8px;
+    text-align: center;
+}
+
+.tour .image {
+    width: 100%;
+    padding-top: 56.25%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.tour p {
+    color: #181511;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.tour .details {
+    color: #8a7860;
+    font-size: 0.875rem;
+}
