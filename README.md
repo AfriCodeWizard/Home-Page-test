@@ -5,3 +5,7 @@ Image by <a href="https://pixabay.com/users/antonytrivet-3549802/?utm_source=lin
 Image by <a href="https://pixabay.com/users/wildhearted-39577386/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8305701">Wild Hearted</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8305701">Pixabay</a>
 Image by <a href="https://pixabay.com/users/viechfisch-23209/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=85662">Markus Fischer</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=85662">Pixabay</a>
 Image by <a href="https://pixabay.com/users/antekante-5115688/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2233366">Ante Hamersmit</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2233366">Pixabay</a>
+<a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/youtube" title="youtube icons">Youtube icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/twitter-social-badge" title="twitter social badge icons">Twitter social badge icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons created by Freepik - Flaticon</a>
